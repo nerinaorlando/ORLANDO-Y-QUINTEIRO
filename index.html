@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Perfil digital - Mundial 2026</title>
+    <style>
+        /* --- ESTILOS GENERALES Y MODERNOS --- */
+        html {
+            scroll-behavior: smooth; /* Desplazamiento suave de los enlaces */
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* --- BARRA DE NAVEGACIÓN MODERNA --- */
+        nav {
+            text-align: center;
+            background: linear-gradient(135deg, #0033aa, #001155);
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        nav strong {
+            color: #ffcc00;
+            margin-right: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 6px 12px;
+            margin: 0 3px;
+            border-radius: 4px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ffcc00;
+            color: #001155;
+        }
+
+        /* --- CONTENEDOR PRINCIPAL --- */
+        .main-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* --- TÍTULOS --- */
+        h1 {
+            color: #0033aa;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            color: #444;
+            margin-top: 5px;
+        }
+
+        /* Títulos de los Grupos Estilo Tarjeta */
+        .titulo-grupo {
+            background-color: #0033aa;
+            color: white;
+            display: inline-block;
+            padding: 10px 30px;
+            border-radius: 25px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* --- TABLAS ESTILIZADAS (COLCORCITO COOL) --- */
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            border-radius: 8px;
+            overflow: hidden; /* Para que las esquinas se vean redondeadas */
+            border: 2px solid #ffcc00; /* Borde dorado mundialista */
+        }
+
+        /* Fila de Encabezados */
+        tr.header-tabla {
+            background-color: #001155;
+            color: #ffcc00;
+            font-size: 1.1em;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+
+        /* Filas de Datos */
+        tr.fila-datos {
+            border-bottom: 1px solid #e0e0e0;
+            transition: background-color 0.2s;
+        }
+
+        /* Efecto al pasar el mouse por encima de las celdas */
+        tr.fila-datos:hover {
+            background-color: #eef5ff;
+        }
+
+        /* --- LÍNEAS DIVISORIAS DIVERTIDAS --- */
+        hr.separador-cool {
+            border: none;
+            height: 6px;
+            background: linear-gradient(90deg, transparent, #ffcc00, #0033aa, #ffcc00, transparent);
+            margin: 40px 0;
+        }
+
+        /* --- IFRAME E IMÁGENES --- */
+        iframe {
+            border: 3px solid #0033aa !important;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            max-width: 100%;
+        }
+
+        img {
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* --- PREDICCIÓN --- */
+        .tarjeta-prediccion {
+            background-color: white;
+            border-left: 6px solid #ffcc00;
+            padding: 20px;
+            display: inline-block;
+            text-align: left;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            border-radius: 0 8px 8px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- MENÚ DE NAVEGACIÓN INTERNO (FIJO EN LA PARTE SUPERIOR) -->
+    <nav>
+        <strong>⚽ MUNDIAL 2026:</strong> 
+        <a href="#inicio">Inicio</a>
+        <a href="#grupo-a">Grupo A</a>
+        <a href="#grupo-b">Grupo B</a>
+        <a href="#grupo-c">Grupo C</a>
+        <a href="#grupo-d">Grupo D</a>
+        <a href="#ciudad-sede">Ciudad Sede</a>
+        <a href="#mi-prediccion">Mi Predicción</a>
+    </nav>
+
+    <div class="main-container">
+
+        <!-- INICIO -->
+        <div id="inicio">
+            <h1><u>Mundial 2026 - 11/06-19/07</u></h1>
+            <h2>EEUU - MÉXICO - CANADÁ</h2>    
+            <hr class="separador-cool" />
+            <img src="https://agencia.unq.edu.ar/wp-content/uploads/2026/05/fifa.jpg" alt="Imagen de las mascotas mundialistas" width="600" height="300">
+        </div>
+
+        <!-- GRUPO A -->
+        <h2 id="grupo-a" class="titulo-grupo">GRUPO A</h2>
+        <table>
+            <tr class="header-tabla">
+                <td><strong>Selecciones</strong></td>
+                <td><strong>Confederación</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>MÉXICO</strong></td>
+                <td><strong>CONCACAF</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>SUDÁFRICA</strong></td>
+                <td><strong>CAF</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>COREA DEL SUR</strong></td>
+                <td><strong>AFC</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>REPÚBLICA CHECA</strong></td>
+                <td><strong>UEFA</strong></td>
+            </tr>
+        </table> 
+        
+        <hr class="separador-cool" />
+
+        <!-- GRUPO B -->
+        <h2 id="grupo-b" class="titulo-grupo">GRUPO B</h2>
+        <table>
+            <tr class="header-tabla">
+                <td><strong>Selecciones</strong></td>
+                <td><strong>Confederación</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>CANADÁ</strong></td>
+                <td><strong>CONCACAF</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>SUIZA</strong></td>
+                <td><strong>UEFA</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>QATAR</strong></td>
+                <td><strong>AFC</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>BOSNIA</strong></td>
+                <td><strong>UEFA</strong></td>
+            </tr>
+        </table> 
+        
+        <hr class="separador-cool" />
+
+        <!-- GRUPO C -->
+        <h2 id="grupo-c" class="titulo-grupo">GRUPO C</h2>
+        <table>
+            <tr class="header-tabla">
+                <td><strong>Selecciones</strong></td>
+                <td><strong>Confederación</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>BRASIL</strong></td>
+                <td><strong>CONMEBOL</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>MARRUECOS</strong></td>
+                <td><strong>CAF</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>ESCOCIA</strong></td>
+                <td><strong>UEFA</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>HAITÍ</strong></td>
+                <td><strong>CONCACAF</strong></td>
+            </tr>
+        </table> 
+        
+        <hr class="separador-cool" />
+
+        <!-- GRUPO D -->
+        <h2 id="grupo-d" class="titulo-grupo">GRUPO D</h2>
+        <table>
+            <tr class="header-tabla">
+                <td><strong>Selecciones</strong></td>
+                <td><strong>Confederación</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>ESTADOS UNIDOS</strong></td>
+                <td><strong>CONCACAF</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>AUSTRALIA</strong></td>
+                <td><strong>AFC</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>PARAGUAY</strong></td>
+                <td><strong>CONMEBOL</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>TURQUÍA</strong></td>
+                <td><strong>UEFA</strong></td>
+            </tr>
+        </table> 
+
+        <hr class="separador-cool" />
+
+        <!-- OTROS GRUPOS (Siguen manteniendo el diseño moderno) -->
+        <h2 class="titulo-grupo">GRUPO E</h2>
+        <table>
+            <tr class="header-tabla">
+                <td><strong>Selecciones</strong></td>
+                <td><strong>Confederación</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>ALEMANIA</strong></td>
+                <td><strong>UEFA</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>COSTA DE MARFIL</strong></td>
+                <td><strong>CAF</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>ECUADOR</strong></td>
+                <td><strong>CONMEBOL</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>CURAZAO</strong></td>
+                <td><strong>CONCACAF</strong></td>
+            </tr>
+        </table> 
+
+        <h2 class="titulo-grupo">GRUPO F</h2>
+        <table>
+            <tr class="header-tabla">
+                <td><strong>Selecciones</strong></td>
+                <td><strong>Confederación</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>PAÍSES BAJOS</strong></td>
+                <td><strong>UEFA</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>JAPÓN</strong></td>
+                <td><strong>AFC</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>SUECIA</strong></td>
+                <td><strong>UEFA</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>TÚNEZ</strong></td>
+                <td><strong>CAF</strong></td>
+            </tr>
+        </table> 
+
+        <h2 class="titulo-grupo">GRUPO G</h2>
+        <table>
+            <tr class="header-tabla">
+                <td><strong>Selecciones</strong></td>
+                <td><strong>Confederación</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>EGIPTO</strong></td>
+                <td><strong>CAF</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>IRÁN</strong></td>
+                <td><strong>AFC</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>BÉLGICA</strong></td>
+                <td><strong>UEFA</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>NUEVA ZELANDA</strong></td>
+                <td><strong>OFC</strong></td>
+            </tr>
+        </table> 
+
+        <h2 class="titulo-grupo">GRUPO H</h2>
+        <table>
+            <tr class="header-tabla">
+                <td><strong>Selecciones</strong></td>
+                <td><strong>Confederación</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>ESPAÑA</strong></td>
+                <td><strong>UEFA</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>URUGUAY</strong></td>
+                <td><strong>CONMEBOL</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>CABO VERDE</strong></td>
+                <td><strong>CAF</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>ARABIA SAUDITA</strong></td>
+                <td><strong>AFC</strong></td>
+            </tr>
+        </table> 
+
+        <h2 class="titulo-grupo">GRUPO I</h2>
+        <table>
+            <tr class="header-tabla">
+                <td><strong>Selecciones</strong></td>
+                <td><strong>Confederación</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>FRANCIA</strong></td>
+                <td><strong>UEFA</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>NORUEGA</strong></td>
+                <td><strong>UEFA</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>SENEGAL</strong></td>
+                <td><strong>CAF</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>IRAK</strong></td>
+                <td><strong>AFC</strong></td>
+            </tr>
+        </table>
+
+        <h2 class="titulo-grupo">GRUPO J</h2>
+        <table>
+            <tr class="header-tabla">
+                <td><strong>Selecciones</strong></td>
+                <td><strong>Confederación</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>ARGENTINA</strong></td>
+                <td><strong>CONMEBOL</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>ARGELIA</strong></td>
+                <td><strong>CAF</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>AUSTRIA</strong></td>
+                <td><strong>UEFA</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>JORDANIA</strong></td>
+                <td><strong>AFC</strong></td>
+            </tr>
+        </table> 
+
+        <h2 class="titulo-grupo">GRUPO K</h2>
+        <table>
+            <tr class="header-tabla">
+                <td><strong>Selecciones</strong></td>
+                <td><strong>Confederación</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>COLOMBIA</strong></td>
+                <td><strong>CONMEBOL</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>RD CONGO</strong></td>
+                <td><strong>CAF</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>PORTUGAL</strong></td>
+                <td><strong>UEFA</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>UZBEKISTÁN</strong></td>
+                <td><strong>AFC</strong></td>
+            </tr>
+        </table> 
+
+        <h2 class="titulo-grupo">GRUPO L</h2>
+        <table>
+            <tr class="header-tabla">
+                <td><strong>Selecciones</strong></td>
+                <td><strong>Confederación</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>INGLATERRA</strong></td>
+                <td><strong>UEFA</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>GHANA</strong></td>
+                <td><strong>CAF</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>CROACIA</strong></td>
+                <td><strong>UEFA</strong></td>
+            </tr>
+            <tr class="fila-datos">
+                <td><strong>PANAMÁ</strong></td>
+                <td><strong>CONCACAF</strong></td>
+            </tr>
+        </table> 
+
+        <hr class="separador-cool" />
+
+        <!-- CIUDAD SEDE -->
+        <div id="ciudad-sede">
+            <h3>📍 MAPA DEL ESTADIO EN EL QUE SE JUGARÁ LA FINAL</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.9023405788775!2d-74.07684342342416!3d40.81358173007629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2571c3d116297%3A0x9d545cfbb9da7d63!2sMetLife%20Stadium!5e0!3m2!1ses-419!2sar!4v1716300000000!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <hr class="separador-cool" />
+
+        <!-- MI PREDICCIÓN -->
+        <div id="mi-prediccion">
+            <h3>🔮 NUESTRA PREDICCIÓN</h3>
+            <div class="tarjeta-prediccion">
+                <p>🥇 <strong>SELECCIÓN CAMPEONA:</strong> ARGENTINA 🇦🇷</p>
+                <p>🏆 <strong>LA FINAL SE DISPUTARÁ ENTRE:</strong> ESPAÑA Y ARGENTINA</p>
+                <p>⭐ <strong>JUGADOR MÁS DESTACADO:</strong> TIM PAYNE <small>(Aparte de Messi)</small></p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
